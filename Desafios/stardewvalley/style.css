@@ -1,0 +1,59 @@
+body {
+    height: 100vh;
+    position: relative;
+    background: url(imagens/1547853.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header > picture {
+    display: inline;
+}
+
+nav {
+    background-color: transparent;
+    margin: auto;
+}
+
+nav > div {
+    background-color: #adcad6;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav > div > a {
+    font-size: 20px;
+    margin-right: 50px;
+    color: black;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+div > #basico:hover {
+    background-color: #273469;
+    color: #adcad6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+    background-color: rgba(255, 255, 255, 0.596);
+    margin: auto;
+    height: 1500px;
+    width: 1000px;
+}
