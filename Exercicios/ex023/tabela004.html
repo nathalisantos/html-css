@@ -4,81 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício de Tabelas</title>
+    <title>Tabela</title>
     <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
         table {
+            font-family: Arial, Helvetica, sans-serif;
             border-collapse: collapse;
             width: 500px;
+            height: 50px;
         }
 
-        caption {
-            font-weight: bold;
-            padding: 10px;
-        }
-
-        th, td {
+        td {
             border: 1px solid black;
+        }
+
+        .negrito {
+            text-align: center;
             padding: 10px;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <h1>Exercício de Tabelas</h1>
-    
     <table>
-        <caption>Cadastro</caption>
-
         <tr>
-            <th scope="col">Nome</th>
-            <th scope="col">Sexo</th>
-            <th scope="col">Idade</th>
-            <th scope="col">Profissão</th>
+            <td class="negrito">Grupo</td>
+            <td class="negrito">Nomes</td>
+            <td colspan="3" class="negrito">Filmes</td>
         </tr>
 
         <tr>
-            <td>Ana Maria</td>
-            <td>F</td>
-            <td>25</td>
-            <td>Jornalista</td>
+            <td rowspan="3" class="negrito">Mulheres</td>
+            <td>Ana Maria Santos</td>
+            <td>Alien</td>
+            <td>Rambo</td>
+            <td>Vingadores</td>
         </tr>
 
         <tr>
-            <td>Cláudio</td>
-            <td>M</td>
-            <td>28</td>
-            <td>Programador</td>
+            <td>Beatriz Souza</td>
+            <td>Hulk</td>
+            <td>Inception</td>
+            <td>Batman</td>
         </tr>
 
         <tr>
-            <td>Gustavo</td>
-            <td>M</td>
-            <td>42</td>
-            <td>Professor</td>
+            <td>Claudia Melo</td>
+            <td>Oblivion</td>
+            <td>Matrix</td>
+            <td>Big Hero</td>
         </tr>
 
         <tr>
-            <td>Hélio</td>
-            <td>M</td>
-            <td>19</td>
-            <td>Vendedor</td>
+            <td rowspan="3" class="negrito">Homens</td>
+            <td>Bruno Mendonça</td>
+            <td>Intocáveis</td>
+            <td>Amnésia</td>
+            <td>Gladiador</td>
         </tr>
 
         <tr>
-            <td>Maria</td>
-            <td>F</td>
-            <td>39</td>
-            <td>Médica</td>
+            <td>Daniel Lourenço</td>
+            <td>Wall-E</td>
+            <td>Oldboy</td>
+            <td>Dangal</td>
         </tr>
 
         <tr>
-            <td>Otávio</td>
-            <td>M</td>
-            <td>22</td>
-            <td>Nutricionista</td>
+            <td>Fabiano Mota</td>
+            <td>Star Wars 5</td>
+            <td>Taxi Driver</td>
+            <td>Toy Story</td>
         </tr>
     </table>
 </body>
